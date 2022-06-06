@@ -1,1 +1,1 @@
-//Sort an array
+//Sort array
