@@ -13,5 +13,4 @@ function PrintFibonacciSeries() {
     }
     console.log(fibSeries);
 }
-
 PrintFibonacciSeries()
