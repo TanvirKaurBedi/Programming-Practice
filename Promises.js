@@ -1,6 +1,6 @@
 const cart = ["shoes", "pants", "kurta"]
 
-// consuming promise 
+// consumer promise 
 
 const promise = createOrder(cart);
 promise.then(function (orderId) {
@@ -9,7 +9,7 @@ promise.then(function (orderId) {
     console.log(err)
 })
 
-// making promise
+// producer promise
 
 function createOrder(cart) {
     const pr = new Promise(function (resolve, reject) {
