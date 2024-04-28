@@ -1,7 +1,5 @@
 let arr = ["apple", "bat", "orange", "rat", "bat", "pizza"]
 let new_arr = []
-
-
 function removeDuplicate() {
     for (let i = 0; i < arr.length; i++) {
         var isDuplicate = false
