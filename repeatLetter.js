@@ -1,5 +1,5 @@
-let str = "booby"
-// result should be = bob
+let str = "sunny"
+// result should be = sun
 let new_word = ""
 
 function removeRepetativeLetter() {
