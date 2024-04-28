@@ -1,11 +1,13 @@
 // Binary Search
-// Time complexity is
+// Time complexity is 0(log n)
 // find the index of 0
 let arr = [39, 784, 0, 72, 7, 46]
+arr.sort((a,b)=> a-b)
+console.log(arr)
 let target = 46;
 let length = arr.length
 let start = 0
-let end =length - 1
+let end = length - 1
 
 while (start <= end) {
     middle = Math.floor((start + end) / 2)
@@ -14,8 +16,8 @@ while (start <= end) {
         break;
     }
     else if (target < arr[middle]) {
-        end = middle -1
-    }   
+        end = middle - 1
+    }
     else if (target > arr[middle]) {
         start = middle + 1
     }
