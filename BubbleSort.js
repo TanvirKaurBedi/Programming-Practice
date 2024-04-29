@@ -1,4 +1,5 @@
 // Bubble Sort (we compare each adjacent element and swap accordingly)
+// Time Compelity = O(n^2)
 let arr = [39, 784, 0, 72, 7, 46]
 
 function BubbleSort() {
