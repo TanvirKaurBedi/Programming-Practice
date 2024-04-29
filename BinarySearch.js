@@ -1,8 +1,8 @@
-// Binary Search
+// Binary Search (first we sort the array we find the middle and check whether the target is in middle or smaller than the middle or grater than the middle)
 // Time complexity is 0(log n)
 // find the index of 0
 let arr = [39, 784, 0, 72, 7, 46]
-arr.sort((a,b)=> a-b)
+arr.sort((a, b) => a - b)
 console.log(arr)
 let target = 46;
 let length = arr.length
