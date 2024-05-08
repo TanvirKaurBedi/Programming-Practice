@@ -10,8 +10,8 @@ const p1 = new Promise((resolve, reject) => {
     }, 1000)
 })
 
- function handlePromise() {
-    let result =  p1
+async function handlePromise() {
+    let result = await p1
     console.log("result", result)
     console.log("apppp")
 }
